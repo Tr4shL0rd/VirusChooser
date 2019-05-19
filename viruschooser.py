@@ -6,10 +6,9 @@ import pyfiglet
 
 name = pyfiglet.figlet_format("Virus Chooser", font = "slant")
 clear = "\n" * 100
-
+smallspace = "\n" * 5
 print(clear)
 print(name)
-
 
 print("choose a virus!")
 print()
